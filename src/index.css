@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.sectionTitle{
+  position: relative;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 500;
+  color: #091133;
+
+}
+
+.sectionTitle::after{
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid #004d91;
+  content: "";
+  text-align: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+.redesSociales{
+    float: left;
+    margin-left: 47%;
+    width: 13%;
+  }
+  
+  .redesSociales img{
+    width: 10%;
+    margin-left: 15px;
+    vertical-align: middle;
+  
+  }
+  
+  
+  .socialMedia{
+    position: fixed;
+    width: 1.2%;
+    height: 150px;
+    background-color: white;
+    padding: 25px 15px 25px 15px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.20);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    top: 45%;
+    left: 94%;
+  }

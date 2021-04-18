@@ -1,0 +1,78 @@
+.carreras, .postgrados{
+  width: 100%;
+  overflow: hidden;
+}
+
+.carreras{
+    background-image: url(https://um.edu.uy/themes/custom/um/images/grad-bg.png);
+    background-size: cover;
+  }
+
+  .postgrados{
+    padding-top: 100px;
+  }
+
+  .carreras ul,
+  .postgrados ul{
+    position: relative;
+    width: 40%;
+    float: left;
+    margin: 0px;
+  }
+
+  .carreras h1{
+    left: 350px;
+  }
+
+  .postgrados h1{
+    left: 909px;
+  }
+
+  .carreras ul{
+    columns: 2;
+    left: 320px;
+  }
+
+  .postgrados ul{
+    left: 310px;
+  }
+  
+  .carreras li,
+  .postgrados li{
+    line-height: 40px;
+    cursor: pointer;
+  }
+
+  .carreras li::marker,
+  .postgrados li::marker{
+    color: #004d91;
+    font-size: 20px;
+  }
+  
+  .carreras li:hover,
+  .postgrados li:hover{
+    text-decoration: underline;
+  }
+  
+  .carreras div,
+  .postgrados div{
+    float: left;
+    width: 30%;
+    height: 430px;
+    position: relative;
+    background-repeat: no-repeat;
+  
+  }
+
+  .carreras div {
+    background-image: url(https://um.edu.uy/sites/default/files/inline-images/grad-img_0.png);
+    left: 350px;
+    background-size: 60%;
+  }
+
+  .postgrados div {
+    background-image: url(https://um.edu.uy/sites/default/files/inline-images/post-img_4.png);
+    background-size: 80%;
+    left: 430px;
+  }
+  

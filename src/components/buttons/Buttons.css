@@ -1,0 +1,22 @@
+.bigButton{
+    float: left;
+    width: 8%;
+    height: 60px;
+    background-color: #eaeeed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 70px rgb(0 0 0 / 24%);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.70);
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .bigButton:hover{
+    background-color: #0e4d91;
+    color: white;
+  }

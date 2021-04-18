@@ -1,0 +1,48 @@
+.carousel{
+    float: left;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+  
+  }
+  
+  
+  
+  .carousel-card h1{
+    position: relative;
+    bottom: 410px;
+    left: 15%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.50);
+  }
+  
+  .carouselControlls{
+    display: flex;
+    position: relative;
+    bottom: 790px;
+    justify-content: space-between;
+    padding: 150px;
+  }
+  
+  .carouselControlls div{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.50);
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carouselControlls div:hover{
+    background-color: white;
+  }
+  
+  
+  
+  .btns{
+    position: relative;
+    bottom: 40px;
+    left: 350px;
+  }
